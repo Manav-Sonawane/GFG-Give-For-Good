@@ -4,8 +4,8 @@ import { Leaf } from "lucide-react";
 
 export default function Topbar() {
     return (
-        <div className="w-full px-6 py-4 bg-[#FAFAF8] ">
-            <nav className="mx-auto max-w-8xl px-15 py-4 flex items-center justify-between">
+        <div className="w-full px-6 py-4 bg-[#FAFAF8]">
+            <nav className="mx-auto max-w-7xl px-8 py-4 flex items-center justify-between">
 
                 {/* Logo Section */}
                 <Link href="/" className="flex items-center gap-2 group">

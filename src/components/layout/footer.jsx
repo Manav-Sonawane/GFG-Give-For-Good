@@ -1,6 +1,10 @@
 import Link from "next/link";
 
-export default function Footer() {
+export function Footer() {
+    return <FooterContent />;
+}
+
+export default function FooterContent() {
     const currentYear = new Date().getFullYear();
 
     return (

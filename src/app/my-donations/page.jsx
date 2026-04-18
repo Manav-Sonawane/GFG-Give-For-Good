@@ -1,7 +1,7 @@
 import React from 'react';
 import { SideNavBar } from '@/components/dashboard/SideNavBar';
 import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
-import { DashboardFooter } from '@/components/dashboard/DashboardFooter';
+import { Footer } from '@/components/layout/footer';
 import { DonationItem } from '@/components/dashboard/DonationItem';
 
 export default function MyDonationsPage() {
@@ -88,7 +88,7 @@ export default function MyDonationsPage() {
                 </section>
 
                 <div className="mt-auto">
-                    <DashboardFooter />
+                    <Footer />
                 </div>
             </main>
         </div>

@@ -6,7 +6,7 @@ import { RankingTable } from '@/components/dashboard/RankingTable';
 import { CategoryChampions } from '@/components/dashboard/CategoryChampions';
 import { Badges } from '@/components/dashboard/Badges';
 import { CTACard } from '@/components/dashboard/CTACard';
-import { DashboardFooter } from '@/components/dashboard/DashboardFooter';
+import { Footer } from '@/components/layout/footer';
 
 export default function LeaderboardPage() {
     return (
@@ -46,7 +46,7 @@ export default function LeaderboardPage() {
                     </div>
                 </div>
 
-                <DashboardFooter />
+                <Footer />
             </main>
         </div>
     );

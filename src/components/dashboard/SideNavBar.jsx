@@ -12,6 +12,7 @@ export function SideNavBar() {
         { name: 'Leaderboard', href: '/leaderboard', icon: 'leaderboard' },
         { name: 'Matches', href: '#', icon: 'handshake' },
         { name: 'Messages', href: '#', icon: 'chat_bubble' },
+        { name: 'Notifications', href: '/notifications', icon: 'notifications' },
         { name: 'Settings', href: '#', icon: 'settings' },
     ];
 

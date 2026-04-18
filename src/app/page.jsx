@@ -18,9 +18,9 @@ export default function LandingContent() {
   return (
     <>
       <Topbar />
-      <main className="pt-5 bg-[#f9f9f7]">
+      <main className="bg-[#f9f9f7]">
         {/* --- HERO SECTION --- */}
-        <section className="max-w-7xl mx-auto px-8 py-10 lg:py-20">
+        <section className="max-w-7xl mx-auto px-8 py-5 lg:py-8">
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-12 lg:col-span-7 flex flex-col justify-center">
               <h1 className="text-6xl md:text-7xl font-medium tracking-tighter text-slate-900 leading-[1.05] mb-8">

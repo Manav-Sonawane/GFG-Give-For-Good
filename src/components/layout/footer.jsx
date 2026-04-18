@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Leaf } from "lucide-react";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -9,12 +8,9 @@ export default function Footer() {
             <div className="container mx-auto px-6 flex flex-col items-center">
 
                 {/* Logo Section */}
-                <div className="flex items-center gap-2 mb-10">
-                    <Leaf className="h-5 w-5 text-[#0F8E58] fill-[#0F8E58]" />
-                    <span className="text-2xl font-bold tracking-tight text-[#1D4D3F]">
-                        DonateConnect
-                    </span>
-                </div>
+                <Link href="/" className="flex items-center gap-3 mb-10 transition-transform hover:scale-105">
+                    <img src="/logo.png" alt="GFG Logo" className="h-24 w-auto object-contain" />
+                </Link>
 
                 {/* Navigation Links */}
                 <nav className="flex flex-wrap justify-center gap-x-12 gap-y-4 mb-12">

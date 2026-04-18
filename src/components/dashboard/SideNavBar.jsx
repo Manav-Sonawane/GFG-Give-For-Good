@@ -13,7 +13,7 @@ export function SideNavBar() {
         { name: 'Matches', href: '#', icon: 'handshake' },
         { name: 'Messages', href: '#', icon: 'chat_bubble' },
         { name: 'Notifications', href: '/notifications', icon: 'notifications' },
-        { name: 'Settings', href: '#', icon: 'settings' },
+        { name: 'Settings', href: '/settings', icon: 'settings' },
     ];
 
     return (

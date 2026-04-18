@@ -1,12 +1,12 @@
 import React from 'react';
-import { SideNavBar } from '@/components/leaderboard/SideNavBar';
-import { DashboardHeader } from '@/components/leaderboard/DashboardHeader';
-import { Podium } from '@/components/leaderboard/Podium';
-import { RankingTable } from '@/components/leaderboard/RankingTable';
-import { CategoryChampions } from '@/components/leaderboard/CategoryChampions';
-import { Badges } from '@/components/leaderboard/Badges';
-import { CTACard } from '@/components/leaderboard/CTACard';
-import { DashboardFooter } from '@/components/leaderboard/DashboardFooter';
+import { SideNavBar } from '@/components/dashboard/SideNavBar';
+import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
+import { Podium } from '@/components/dashboard/Podium';
+import { RankingTable } from '@/components/dashboard/RankingTable';
+import { CategoryChampions } from '@/components/dashboard/CategoryChampions';
+import { Badges } from '@/components/dashboard/Badges';
+import { CTACard } from '@/components/dashboard/CTACard';
+import { DashboardFooter } from '@/components/dashboard/DashboardFooter';
 
 export default function LeaderboardPage() {
     return (

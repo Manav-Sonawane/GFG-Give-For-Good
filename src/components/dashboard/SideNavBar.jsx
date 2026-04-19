@@ -10,7 +10,7 @@ export function SideNavBar() {
         { name: 'Dashboard', href: '/dashboard', icon: 'dashboard' },
         { name: 'My Donations', href: '/my-donations', icon: 'volunteer_activism' },
         { name: 'Leaderboard', href: '/leaderboard', icon: 'leaderboard' },
-        { name: 'Matches', href: '#', icon: 'handshake' },
+        { name: 'Matches', href: '/matches', icon: 'handshake' },
         { name: 'Messages', href: '#', icon: 'chat_bubble' },
         { name: 'Notifications', href: '/notifications', icon: 'notifications' },
         { name: 'Settings', href: '/settings', icon: 'settings' },

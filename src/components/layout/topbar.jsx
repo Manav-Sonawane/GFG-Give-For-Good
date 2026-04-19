@@ -12,6 +12,7 @@ export default function Topbar() {
         { name: "How it Works", href: "/how-it-works" },
         { name: "NGOs", href: "/ngos" },
         { name: "Impact", href: "/impact" },
+        { name: "Matches", href: "/matches" },
         { name: "Leaderboard", href: "/leaderboard" },
     ];
 

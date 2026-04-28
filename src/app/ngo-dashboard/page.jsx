@@ -25,31 +25,27 @@ export default function NGODashboard() {
         </div>
 
         <nav className="flex-1 space-y-1">
-          <a className="flex items-center space-x-3 px-4 py-3 bg-primary-fixed text-on-primary-fixed-variant rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 bg-primary-fixed text-on-primary-fixed-variant rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/ngo-dashboard">
             <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
             <span className="text-sm">Dashboard</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/my-donations">
             <span className="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
             <span className="text-sm">My Donations</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/leaderboard">
             <span className="material-symbols-outlined" data-icon="leaderboard">leaderboard</span>
             <span className="text-sm">Leaderboard</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/matches">
             <span className="material-symbols-outlined" data-icon="handshake">handshake</span>
             <span className="text-sm">Matches</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
-            <span className="material-symbols-outlined" data-icon="mail">mail</span>
-            <span className="text-sm">Messages</span>
-          </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/notifications">
             <span className="material-symbols-outlined" data-icon="notifications">notifications</span>
             <span className="text-sm">Notifications</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="#">
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/settings">
             <span className="material-symbols-outlined" data-icon="settings">settings</span>
             <span className="text-sm">Settings</span>
           </a>

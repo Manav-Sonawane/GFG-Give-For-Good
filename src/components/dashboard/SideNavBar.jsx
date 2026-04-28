@@ -7,11 +7,10 @@ export function SideNavBar() {
     const pathname = usePathname();
 
     const navItems = [
-        { name: 'Dashboard', href: '/dashboard', icon: 'dashboard' },
+        { name: 'Dashboard', href: '/donor-dashboard', icon: 'dashboard' },
         { name: 'My Donations', href: '/my-donations', icon: 'volunteer_activism' },
         { name: 'Leaderboard', href: '/leaderboard', icon: 'leaderboard' },
         { name: 'Matches', href: '/matches', icon: 'handshake' },
-        { name: 'Messages', href: '#', icon: 'chat_bubble' },
         { name: 'Notifications', href: '/notifications', icon: 'notifications' },
         { name: 'Settings', href: '/settings', icon: 'settings' },
     ];
@@ -51,7 +50,7 @@ export function SideNavBar() {
                 })}
             </nav>
             <div className="mt-auto px-6 space-y-4">
-                <button className="w-full bg-primary text-on-primary py-2 px-4 rounded-lg font-medium text-sm transition-all active:opacity-80 scale-95 hover:bg-primary-container">Start a Donation</button>
+                <Link href="/post-a-donation" className="block w-full bg-primary text-on-primary py-2 px-4 rounded-lg font-medium text-sm transition-all active:opacity-80 scale-95 hover:bg-primary-container text-center">Start a Donation</Link>
                 <div className="pt-6 space-y-3">
                     <a className="text-slate-600 flex items-center gap-3 text-sm hover:text-primary transition-colors" href="#">
                         <span className="material-symbols-outlined text-lg" data-icon="help">help</span> Support

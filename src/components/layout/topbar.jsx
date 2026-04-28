@@ -12,8 +12,6 @@ export default function Topbar() {
         { name: "How it Works", href: "/how-it-works" },
         { name: "NGOs", href: "/ngos" },
         { name: "Impact", href: "/impact" },
-        { name: "Matches", href: "/matches" },
-        { name: "Leaderboard", href: "/leaderboard" },
     ];
 
     return (
@@ -53,10 +51,10 @@ export default function Topbar() {
                     >
                         Login
                     </Link>
-                    <Button
+                    <Button asChild
                         className="rounded-full px-7 py-5 bg-[#0F8E58] hover:bg-[#0D7A4B] text-white font-bold text-sm shadow-md transition-all hover:shadow-lg active:scale-95"
                     >
-                        Donate Now
+                        <Link href="/login">Donate Now</Link>
                     </Button>
                 </div>
 

@@ -30,12 +30,14 @@ export default function LandingContent() {
                 A curated digital ecosystem matching surplus resources with high-impact NGOs. Real-time logistical harmony for the modern philanthropist.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="bg-[#005440] hover:bg-[#003d2e] text-white px-8 py-7 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition-all">
-                  Donate something
-                  <ArrowRight className="h-5 w-5" />
+                <Button asChild className="bg-[#005440] hover:bg-[#003d2e] text-white px-8 py-7 rounded-full font-semibold text-lg flex items-center justify-center gap-2 transition-all">
+                  <a href="/login">
+                    Donate something
+                    <ArrowRight className="h-5 w-5" />
+                  </a>
                 </Button>
-                <Button variant="outline" className="border-2 border-[#005440] text-[#005440] px-8 py-7 rounded-full font-semibold text-lg hover:bg-slate-100 transition-all">
-                  Register as NGO
+                <Button asChild variant="outline" className="border-2 border-[#005440] text-[#005440] px-8 py-7 rounded-full font-semibold text-lg hover:bg-slate-100 transition-all">
+                  <a href="/signup">Register as NGO</a>
                 </Button>
               </div>
             </div>
@@ -115,7 +117,7 @@ export default function LandingContent() {
           <div className="max-w-7xl mx-auto px-8">
             <div className="flex justify-between items-end mb-16">
               <h2 className="text-4xl font-medium tracking-tight text-slate-900">Active mission requests</h2>
-              <a className="text-[#005440] font-medium flex items-center gap-2 hover:translate-x-1 transition-all" href="#">
+              <a className="text-[#005440] font-medium flex items-center gap-2 hover:translate-x-1 transition-all" href="/ngo-dashboard">
                 View all NGOs <MoveRight className="h-5 w-5" />
               </a>
             </div>
@@ -194,8 +196,8 @@ function NGOCard({ title, location, need, status, img }) {
           <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1 text-xs">Current Need</p>
           <p className="text-slate-900 font-medium text-sm">{need}</p>
         </div>
-        <Button variant="outline" className="w-full py-6 border-[#005440] text-[#005440] rounded-full text-sm font-medium hover:bg-[#005440] hover:text-white transition-all">
-          Donate Now
+        <Button asChild variant="outline" className="w-full py-6 border-[#005440] text-[#005440] rounded-full text-sm font-medium hover:bg-[#005440] hover:text-white transition-all">
+          <a href="/login">Donate Now</a>
         </Button>
       </CardContent>
     </Card>

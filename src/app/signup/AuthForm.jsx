@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Heart, Building2, Eye, EyeOff, Upload } from 'lucide-react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 
 export default function AuthForm() {
     const [showPassword, setShowPassword] = useState(false);
@@ -11,6 +11,16 @@ export default function AuthForm() {
     const activeTab = pathname?.includes('login') ? 'login' : 'signup';
     const [role, setRole] = useState('donor');
     const [fileName, setFileName] = useState("");
+    const router = useRouter();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (role === 'ngo') {
+            router.push('/ngo-dashboard');
+        } else {
+            router.push('/donor-dashboard');
+        }
+    };
 
     return (
         <div className="flex flex-col flex-1">
@@ -37,7 +47,7 @@ export default function AuthForm() {
                 <p className="text-[#3f4944] text-xs">Join our curated ecosystem of donors and change-makers.</p>
             </div>
 
-            <form className="space-y-4 flex-1" onSubmit={(e) => e.preventDefault()}>
+            <form className="space-y-4 flex-1" onSubmit={handleSubmit}>
                 <button type="button" className="w-full flex items-center justify-center gap-3 py-2.5 px-4 border border-[#bec9c3] rounded-lg hover:bg-[#f4f4f2] transition-colors text-sm">
                     <img src="https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png" alt="Google" className="w-4 h-4" />
                     <span className="font-medium">Continue with Google</span>

@@ -44,9 +44,9 @@ export default function DonorDashboard() {
                   <span className="text-slate-400 text-sm italic">You're 60 pts away from Gold status.</span>
                 </div>
               </div>
-              <button className="bg-primary text-on-primary px-8 py-3 rounded-full font-medium transition-all hover:scale-[1.02] active:scale-95">
+              <a href="/post-a-donation" className="bg-primary text-on-primary px-8 py-3 rounded-full font-medium transition-all hover:scale-[1.02] active:scale-95">
                 Start a Donation
-              </button>
+              </a>
             </div>
           </section>
 
@@ -91,7 +91,7 @@ export default function DonorDashboard() {
             <section className="col-span-8">
               <div className="flex justify-between items-baseline mb-8">
                 <h3 className="text-2xl font-medium tracking-tight">Pending matches</h3>
-                <a className="text-primary text-sm font-medium hover:underline" href="#">View all</a>
+                <a className="text-primary text-sm font-medium hover:underline" href="/matches">View all</a>
               </div>
               
               <div className="space-y-4">

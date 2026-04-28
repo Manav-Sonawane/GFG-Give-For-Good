@@ -29,9 +29,9 @@ export default function NGODashboard() {
             <span className="material-symbols-outlined" data-icon="dashboard">dashboard</span>
             <span className="text-sm">Dashboard</span>
           </a>
-          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/my-donations">
-            <span className="material-symbols-outlined" data-icon="volunteer_activism">volunteer_activism</span>
-            <span className="text-sm">My Donations</span>
+          <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/post-a-requirement">
+            <span className="material-symbols-outlined" data-icon="format_list_bulleted">format_list_bulleted</span>
+            <span className="text-sm">My Requirements</span>
           </a>
           <a className="flex items-center space-x-3 px-4 py-3 text-on-surface-variant hover:bg-surface-container-low rounded-lg font-medium transition-transform hover:scale-[1.02]" href="/leaderboard">
             <span className="material-symbols-outlined" data-icon="leaderboard">leaderboard</span>

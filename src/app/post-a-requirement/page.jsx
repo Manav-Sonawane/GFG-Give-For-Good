@@ -1,12 +1,12 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-import { SideNavBar } from '@/components/dashboard/SideNavBar';
+import { NGOSideNavBar } from '@/components/dashboard/NGOSideNavBar';
 
 export default function PostARequirement() {
   return (
     <div className="bg-background text-on-surface font-body min-h-screen flex flex-col">
-      <SideNavBar />
+      <NGOSideNavBar />
       
       <main className="ml-[220px] flex-1 flex flex-col min-h-screen">
         <header className="flex justify-between items-center px-12 py-6 w-full sticky top-0 bg-[#f9f9f7]/80 backdrop-blur-md z-30">

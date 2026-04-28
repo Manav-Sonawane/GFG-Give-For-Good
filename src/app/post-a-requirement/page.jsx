@@ -7,9 +7,9 @@ export default function PostARequirement() {
   return (
     <div className="bg-background text-on-surface font-body min-h-screen flex flex-col">
       <NGOSideNavBar />
-      
+
       <main className="ml-[220px] flex-1 flex flex-col min-h-screen">
-        <header className="flex justify-between items-center px-12 py-6 w-full sticky top-0 bg-[#f9f9f7]/80 backdrop-blur-md z-30">
+        <header className="flex justify-between items-center px-12 py-6 w-full sticky top-0 bg-[#f9f9f7]/80 bg-white z-30">
           <div className="flex items-center bg-surface-container px-4 py-2 rounded-full w-96">
             <span className="material-symbols-outlined text-slate-400 text-lg mr-2">search</span>
             <input className="bg-transparent border-none focus:ring-0 text-sm w-full placeholder-slate-400 outline-none" placeholder="Search NGO needs..." type="text" />

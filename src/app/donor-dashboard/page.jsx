@@ -6,15 +6,15 @@ export default function DonorDashboard() {
   return (
     <div className="bg-background text-on-surface min-h-screen flex font-sans">
       <SideNavBar />
-      
+
       <main className="ml-[220px] flex-1 min-h-screen flex flex-col">
         {/* TopAppBar Anchor */}
-        <header className="flex justify-between items-center px-12 py-8 w-full sticky top-0 bg-[#f9f9f7]/80 backdrop-blur-md z-30">
+        <header className="flex justify-between items-center px-12 py-8 w-full sticky top-0 bg-[#f9f9f7]/80 bg-white z-30">
           <div className="relative w-96">
             <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">search</span>
             <input className="w-full bg-surface-container border-none rounded-full py-2.5 pl-12 pr-4 text-sm focus:ring-1 focus:ring-primary/20" placeholder="Search NGO or campaign..." type="text" />
           </div>
-          
+
           <div className="flex items-center gap-6">
             <button className="relative hover:opacity-70 transition-opacity">
               <span className="material-symbols-outlined text-slate-600">notifications</span>
@@ -59,7 +59,7 @@ export default function DonorDashboard() {
                 <p className="text-slate-500 text-sm">Active donations</p>
               </div>
             </div>
-            
+
             <div className="bg-surface-container-low p-8 rounded-2xl flex flex-col justify-between h-40 group hover:bg-surface-container transition-all">
               <span className="material-symbols-outlined text-amber-600 text-2xl">handshake</span>
               <div>
@@ -67,7 +67,7 @@ export default function DonorDashboard() {
                 <p className="text-slate-500 text-sm">Matched items</p>
               </div>
             </div>
-            
+
             <div className="bg-surface-container-low p-8 rounded-2xl flex flex-col justify-between h-40 group hover:bg-surface-container transition-all">
               <span className="material-symbols-outlined text-primary text-2xl">check_circle</span>
               <div>
@@ -75,7 +75,7 @@ export default function DonorDashboard() {
                 <p className="text-slate-500 text-sm">Completed contributions</p>
               </div>
             </div>
-            
+
             <div className="bg-primary text-on-primary p-8 rounded-2xl flex flex-col justify-between h-40 transition-all">
               <span className="material-symbols-outlined text-primary-fixed text-2xl" style={{ fontVariationSettings: "'FILL' 1" }}>token</span>
               <div>
@@ -93,7 +93,7 @@ export default function DonorDashboard() {
                 <h3 className="text-2xl font-medium tracking-tight">Pending matches</h3>
                 <a className="text-primary text-sm font-medium hover:underline" href="/matches">View all</a>
               </div>
-              
+
               <div className="space-y-4">
                 {/* Match Card 1 */}
                 <div className="bg-surface-container-lowest p-6 rounded-xl flex items-center justify-between group transition-all">
@@ -149,7 +149,7 @@ export default function DonorDashboard() {
               <div className="relative space-y-10">
                 {/* Timeline Line */}
                 <div className="absolute left-3 top-2 bottom-2 w-px bg-outline-variant/30"></div>
-                
+
                 {/* Item 1 */}
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-primary-fixed flex items-center justify-center ring-4 ring-surface-container-low">
@@ -161,7 +161,7 @@ export default function DonorDashboard() {
                     <p className="text-[11px] text-slate-400 mt-2 uppercase tracking-widest">2 HOURS AGO</p>
                   </div>
                 </div>
-                
+
                 {/* Item 2 */}
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center ring-4 ring-surface-container-low">
@@ -173,7 +173,7 @@ export default function DonorDashboard() {
                     <p className="text-[11px] text-slate-400 mt-2 uppercase tracking-widest">YESTERDAY</p>
                   </div>
                 </div>
-                
+
                 {/* Item 3 */}
                 <div className="relative pl-10">
                   <div className="absolute left-0 top-1 w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center ring-4 ring-surface-container-low">
@@ -192,7 +192,7 @@ export default function DonorDashboard() {
             </section>
           </div>
         </div>
-        
+
         {/* Footer Anchor */}
         <footer className="w-full mt-auto px-8 py-12 text-center bg-surface-container-low border-t border-transparent">
           <div className="flex flex-col items-center justify-center space-y-6">

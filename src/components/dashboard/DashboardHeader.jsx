@@ -1,6 +1,6 @@
 export function DashboardHeader({ title, subtitle, searchPlaceholder = "Search..." }) {
     return (
-        <header className="fixed top-0 left-[220px] right-0 bg-background/80 backdrop-blur-md z-30 flex justify-between items-center px-12 py-8">
+        <header className="fixed top-0 left-[220px] right-0 bg-white z-30 flex justify-between items-center px-12 py-8">
             <div>
                 {title && <h1 className="text-3xl font-medium tracking-tight text-on-background">{title}</h1>}
                 {subtitle && <p className="text-sm text-on-surface-variant/70 mt-1">{subtitle}</p>}

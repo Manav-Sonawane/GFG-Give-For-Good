@@ -10,13 +10,13 @@ export default function NGODashboard() {
         <Link href="/ngo-dashboard" className="px-4 py-6 block">
           <span className="text-xl font-bold text-primary tracking-tight">Give for Good</span>
         </Link>
-        
+
         <div className="flex items-center space-x-3 px-4 py-4 mb-4 bg-surface-container-low rounded-xl">
-          <img 
-            alt="User profile photo" 
-            className="w-10 h-10 rounded-full object-cover" 
-            data-alt="corporate logo of a global relief organization featuring a stylized globe in soft emerald green tones" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUaxLopNlZ9N3enp4xd7svfDgigimV96ZJzgXpy1ucaGVRGlCBAZTOqEcUuw9ZE1yCnlYN2HwjOdxguSUn4tWEf4PikbThoTZENUVl0iIZ-pK_K6B-TF8vuATwK3gAld3B2GqnK9-K7RsHOAYrRDG71hKhQbgPBRyKrMENuTZ9Y0fYtPznExFxeOUzPb4H7XdLMIu_ZnjYIMVEe8ZOUPcnlmgy7buT3j8Kq9TtIzlONfSXjOyQJCPFLAnMygVxLZhVQ91k9PVHvxw" 
+          <img
+            alt="User profile photo"
+            className="w-10 h-10 rounded-full object-cover"
+            data-alt="corporate logo of a global relief organization featuring a stylized globe in soft emerald green tones"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUaxLopNlZ9N3enp4xd7svfDgigimV96ZJzgXpy1ucaGVRGlCBAZTOqEcUuw9ZE1yCnlYN2HwjOdxguSUn4tWEf4PikbThoTZENUVl0iIZ-pK_K6B-TF8vuATwK3gAld3B2GqnK9-K7RsHOAYrRDG71hKhQbgPBRyKrMENuTZ9Y0fYtPznExFxeOUzPb4H7XdLMIu_ZnjYIMVEe8ZOUPcnlmgy7buT3j8Kq9TtIzlONfSXjOyQJCPFLAnMygVxLZhVQ91k9PVHvxw"
           />
           <div className="overflow-hidden">
             <p className="text-xs font-semibold text-outline uppercase tracking-wider">Welcome back</p>
@@ -60,12 +60,12 @@ export default function NGODashboard() {
       {/* Main Content Area */}
       <main className="ml-64 min-h-screen flex flex-col">
         {/* Top Navigation (Small Variant) */}
-        <header className="sticky top-0 z-40 bg-surface/80 backdrop-blur-md flex justify-between items-center w-full px-8 py-3">
+        <header className="sticky top-0 z-40 bg-surface/80 bg-white flex justify-between items-center w-full px-8 py-3">
           <div className="flex items-center bg-surface-container-lowest border border-outline-variant/20 rounded-full px-4 py-1.5 w-96">
             <span className="material-symbols-outlined text-outline text-lg" data-icon="search">search</span>
             <input className="bg-transparent border-none focus:ring-0 text-sm w-full placeholder:text-outline/60 outline-none" placeholder="Search requirements..." type="text" />
           </div>
-          
+
           <div className="flex items-center space-x-4">
             <button className="p-2 hover:bg-surface-container-low rounded-full transition-colors relative">
               <span className="material-symbols-outlined text-on-surface-variant" data-icon="notifications">notifications</span>
@@ -106,7 +106,7 @@ export default function NGODashboard() {
                 +12% from last week
               </div>
             </div>
-            
+
             <div className="p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/20 hover:bg-surface-container-low transition-colors duration-300">
               <p className="text-xs font-bold text-outline uppercase tracking-widest mb-1">Matched</p>
               <h3 className="text-3xl font-semibold text-secondary">158</h3>
@@ -115,7 +115,7 @@ export default function NGODashboard() {
                 85% match efficiency
               </div>
             </div>
-            
+
             <div className="p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/20 hover:bg-surface-container-low transition-colors duration-300">
               <p className="text-xs font-bold text-outline uppercase tracking-widest mb-1">Received (MT)</p>
               <h3 className="text-3xl font-semibold text-primary">1.2k</h3>
@@ -124,7 +124,7 @@ export default function NGODashboard() {
                 Essential supplies
               </div>
             </div>
-            
+
             <div className="p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/20 hover:bg-surface-container-low transition-colors duration-300">
               <p className="text-xs font-bold text-outline uppercase tracking-widest mb-1">Donors Helped</p>
               <h3 className="text-3xl font-semibold text-tertiary">4.8k</h3>
@@ -146,7 +146,7 @@ export default function NGODashboard() {
                 </div>
                 <button className="text-secondary text-sm font-semibold hover:underline">View All Alerts</button>
               </div>
-              
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Alert Card 1 */}
                 <div className="bg-surface-container-low rounded-2xl p-6 relative overflow-hidden group">
@@ -214,7 +214,7 @@ export default function NGODashboard() {
                     <p className="text-xs text-outline">Ref #99210</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center justify-between p-5 bg-surface-container-lowest rounded-xl border border-outline-variant/20 group hover:bg-surface-container-low transition-colors">
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 rounded-lg bg-secondary/10 flex items-center justify-center text-secondary">
@@ -230,7 +230,7 @@ export default function NGODashboard() {
                     <p className="text-xs text-outline">Ref #98552</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center justify-between p-5 bg-surface-container-lowest rounded-xl border border-outline-variant/20 group hover:bg-surface-container-low transition-colors">
                   <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 rounded-lg bg-tertiary/10 flex items-center justify-center text-tertiary">
@@ -291,7 +291,7 @@ export default function NGODashboard() {
             </section>
           </div>
         </div>
-        
+
         {/* Footer */}
         <footer className="mt-auto w-full py-12 px-8 bg-primary text-on-primary">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -301,7 +301,7 @@ export default function NGODashboard() {
                 Bridging the gap between global resources and local needs through precision-matching technology.
               </p>
             </div>
-            
+
             <div className="grid grid-cols-2 gap-8">
               <div className="space-y-3">
                 <p className="text-xs font-bold uppercase tracking-widest opacity-60">Platform</p>
@@ -316,7 +316,7 @@ export default function NGODashboard() {
                 <a className="block text-sm hover:text-tertiary-fixed transition-colors" href="#">Careers</a>
               </div>
             </div>
-            
+
             <div className="space-y-4">
               <p className="text-xs font-bold uppercase tracking-widest opacity-60">Join the Collective</p>
               <div className="flex">

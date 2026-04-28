@@ -9,7 +9,7 @@ export default function NotificationsPage() {
 
             <main className="ml-[220px] min-h-screen flex flex-col">
                 {/* Inline Header (search + avatar, no title) */}
-                <header className="fixed top-0 left-[220px] right-0 bg-background/80 backdrop-blur-md z-30 flex justify-between items-center px-12 py-6">
+                <header className="fixed top-0 left-[220px] right-0 bg-background/80 bg-white z-30 flex justify-between items-center px-12 py-6">
                     <div className="flex items-center bg-surface-container-low px-4 py-2 rounded-full w-96">
                         <span className="material-symbols-outlined text-outline mr-2">search</span>
                         <input className="bg-transparent border-none focus:ring-0 text-sm w-full font-['Inter']" placeholder="Search activities..." type="text" />
